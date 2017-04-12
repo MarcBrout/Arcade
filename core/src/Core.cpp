@@ -17,7 +17,7 @@ arcade::Core::Core() : tabLib(), tabGame(), pars(),
     setLib("./lib/lib_arcade_lapin.so");
 
     //TODO: Basic choice should be decided on a menu
-    setGame("./games/lib_arcade_snake.so");
+    setGame(GAME);
 }
 
 arcade::Core::Core(std::string const &lib) : tabLib(), tabGame(), pars(),
@@ -28,7 +28,7 @@ arcade::Core::Core(std::string const &lib) : tabLib(), tabGame(), pars(),
 
     setLib(lib);
     //TODO: Basic choice should be decided on a menu
-    setGame("./games/lib_arcade_centipede.so");
+    setGame(GAME);
 }
 
 arcade::Core::~Core()

@@ -12,6 +12,8 @@
 #include "Pars.hpp"
 #include "DLLoader.hpp"
 
+#define GAME "./games/lib_arcade_snake.so"
+
 namespace arcade
 {
     class Core

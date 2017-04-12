@@ -259,16 +259,6 @@ bool arcade::Ndk::doesSupportSound() const
     return false;
 }
 
-void arcade::Ndk::loadSounds(std::vector<std::string> const &sounds)
-{
-    (void) sounds;
-}
-
-void arcade::Ndk::playSound(int soundId)
-{
-    (void) soundId;
-}
-
 void arcade::Ndk::setSize(size_t Height, size_t Width)
 {
     height = Height;

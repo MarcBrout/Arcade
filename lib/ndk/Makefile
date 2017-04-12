@@ -18,7 +18,7 @@ include ../../mk/colors.mk ../../mk/commands.mk ../../mk/definitions.mk
 
 SRC	=	src/Ndk.cpp			\
 		../../interfaces/Sound.cpp \
-		../../interfaces/Color.cpp
+		../../interfaces/Color.cpp \
 
 OBJ 	=   	$(SRC:.cpp=.o)
 

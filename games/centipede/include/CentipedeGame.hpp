@@ -51,9 +51,6 @@ namespace arcade
         std::vector<std::pair<std::string, SoundType>> getSoundsToLoad() const;
         std::vector<Sound> getSoundsToPlay();
         const Vector2s &getPlayerpos() const;
-        tick_t getTickRate() const;
-        bool shot;
-        bool alive;
 
         bool hasNetwork() const override;
 
@@ -66,7 +63,6 @@ namespace arcade
         std::list<Mushroom *>           _mushrooms;
         std::list<Centipede *>          _centipedes;
         size_t                          _tick;
-
 
         // private functions
         void randomize(Map &map, double density = 0.5);
